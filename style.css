@@ -1,16 +1,41 @@
-/****** Body ******/
 
-div #page {
-
+html, body {
+  width: 900px;
+  margin: auto;
 }
 
-header {
+#page {
+  height: 100%;
+  overflow: auto;
+  background-color: aliceblue;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
 
+/****** End Page ******/
+
+header {
+  height: 124px;
+  background-color: AntiqueWhite;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  /*margin: 10px;*/
 }
 
 div #logo {
-
+  display: inline-block;
+  width: 446px;
+  height: 123px;
+  float: left;
+  background-color: Khaki;
+  border-width: 1px;
+  border-style: solid;
+  /*border-color: red;*/
 }
+
+/****** End Logo ******/
 
 div #delicious {
 
@@ -20,44 +45,85 @@ div #fork-knife {
 
 }
 
-div #delicious {
-
-}
-
 div #best-food {
 
 }
 
 div #social {
-
+  display: inline-block;
+  width: 446px;
+  height: 123px;
+  float: left;
+  /*clear: left;*/
+  background-color: Khaki;
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
 }
 
-/****** End Header ******/
+div #social-icons li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  margin: 0 1px;
+  padding: 0;
+}
+
+div #social-icons {
+  text-align: right;
+  top: 100%;
+  /*right: 0px;
+  position: relative;*/
+  background-color: green;
+}
+
+/****** End Social ******/
 
 div #content {
-
+  background-color: AntiqueWhite;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  /*margin: 10px;*/
 }
 
 article #headline {
-
+  /*width: 900px;*/
+  height: 149;
+  background-color: Khaki;
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
 }
 
 img #print {
 
 }
 
-article #pizza {
+/****** End Headline ******/
 
+article #pizza {
+  background-color: Khaki;
+  border-width: 1px;
+  border-style: solid;
+  border-color: green;
+  /*margin: 10px;*/
+}
+
+img #choc-image {
+  /*width: 900px;*/
+  height: 602px;
 }
 
 /****** End Pizza ******/
 
-img #choc-image {
-
-}
-
 article #description {
-
+  /*width: 900px;*/
+  height: 380px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: green;
+  /*margin: 10px;*/
 }
 
 p {
@@ -68,10 +134,19 @@ p.main-text {
 
 }
 
-/****** End Main Text ******/
+/****** End Description ******/
 
 article #recipe {
+  /*width: 900px;*/
+  height: 335px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: green;
+  /*margin: 10px;*/
+}
 
+#recipe img {
+  height: 305px;
 }
 
 li {
@@ -83,29 +158,61 @@ li.recipe-text {
 }
 
 div #recipe-right {
-
+  display: inline-block;
+  width: 446px;
+  float: left;
+  background-color: Khaki;
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
 }
 
 div #recipe-left {
-
+  display: inline-block;
+  width: 446px;
+  float: left;
+  background-color: Khaki;
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
 }
 
-/****** End Content ******/
+/****** End Recipe ******/
 
 footer {
-
+  height: 360px;
+  background-color: AntiqueWhite;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  /*margin: 10px;*/
 }
 
 article #personal {
-
+  border-width: 1px;
+  border-style: solid;
+  border-color: green;
+  /*margin: 10px;*/
 }
 
 div #share-box {
 
 }
 
-div #copyright {
+div #logo-line {
+  border-width: 1px;
+  border-style: solid;
+  border-color: green;
+  /*margin: 10px;*/
+}
 
+div #copyright {
+  width: 250px;
+  height: 50px;
+  margin: auto;
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
 }
 
 /****** End Footer ******/
